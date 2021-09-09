@@ -52,3 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//personal form set 
+
+//listen for form submit 
+ document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+
+ function submitForm(e){
+     e.prevenDefault();
+
+     console.log('working');
+ }
