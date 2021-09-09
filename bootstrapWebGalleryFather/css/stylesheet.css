@@ -1,0 +1,17 @@
+.img-fluid {
+  height: 25vw;
+  width: 30vw;
+}
+
+.img-fluid-modifayed {
+  width: 39vw !important;
+}
+
+.about-section {
+  padding-top: 1rem !important;
+}
+
+.leftImgTwoRow {
+  width: 38vw !important;
+}
+/*# sourceMappingURL=stylesheet.css.map */
