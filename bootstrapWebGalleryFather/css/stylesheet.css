@@ -14,4 +14,34 @@
 .leftImgTwoRow {
   width: 38vw !important;
 }
+
+.form-personall {
+  height: auto;
+}
+
+.bg-form-container {
+  background-color: #64a19d30;
+  width: inherit;
+  height: inherit;
+  margin-top: 1vw;
+  border: 1px solid #1cabc4;
+}
+
+.jumbotron {
+  color: #FFF;
+  border-radius: 0px;
+}
+
+.jumbotron-sm {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.jumbotron small {
+  color: #FFF;
+}
+
+.h1 small {
+  font-size: 24px;
+}
 /*# sourceMappingURL=stylesheet.css.map */
