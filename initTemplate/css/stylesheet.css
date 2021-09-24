@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=stylesheet.css.map */
+span {
+  position: relative;
+  top: 5px;
+}
+
+section.bg-primary {
+  background-color: #1a2f4e !important;
+  color: #fff;
+  height: auto;
+  position: absolute;
+}
+
+ul {
+  float: right;
+  position: relative;
+  padding: 0;
+  margin: 5px 0;
+}
+
+ul li {
+  font-size: 1em;
+  float: left;
+  width: 20%;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  span {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  span {
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  span {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
