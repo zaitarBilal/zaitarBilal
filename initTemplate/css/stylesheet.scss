@@ -18,7 +18,6 @@ section.bg-primary {
     background-color: $firstColor !important;
     color: $secondColor;
     height: auto;
-    position: absolute;
 }
 
 
@@ -27,7 +26,7 @@ ul {
     position: relative;
     padding: 0;
     margin: 5px 0;
-    li{
+    li.reseauSocail{
         font-size: 1em;
         float: left;
         width: 20%;
@@ -56,4 +55,47 @@ ul {
     span {
         text-align: center;
     }
+}
+
+
+
+// navbar
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+nav {
+    height: 4rem !important;
+}
+
+//fixe navbar
+
+.fixeNavbar {
+    position: fixed !important;
+    width: 100% !important;
+    top: 0 !important;
+    z-index: 99999 !important;
+}
+
+
+
+//carousel 
+
+.carousel-item img {
+    height: 82vh !important;
+}
+
+
+//section apropos
+
+
+.iconSize {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+body {
+    background-color: red;
 }
