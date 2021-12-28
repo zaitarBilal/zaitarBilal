@@ -30,19 +30,145 @@ ul li.reseauSocail {
   span {
     text-align: center;
   }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  span {
-    text-align: center;
+  section.set-form {
+    border-top: 1px solid black;
+  }
+  section.set-form p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 1vw;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+  section.set-form p:nth-child(2) {
+    font-size: 1rem;
+    width: 50%;
+    margin: 0  10px 0 37px;
+  }
+  section.set-form form input[type=text] {
+    width: 80%;
+    margin: 20px 0 0 37px;
+    display: inline-block;
+    height: 12vw;
+    padding: 0 0 0 10px;
+  }
+  section.set-form form select {
+    width: 80%;
+    margin: 20px 0 20px 37px;
+    height: 12vw;
+  }
+  section.set-form form input[type=text].dateIns {
+    margin: 0 0 20px 37px;
+  }
+  section.set-form form textarea {
+    width: 80%;
+    margin: 0 0 20px 37px;
+    height: 25vw;
+  }
+  section.set-form form input[type=button] {
+    margin: 0  10px 50px 37px;
+    height: 10vw;
+    padding: 5px 10px 5px 10px;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   span {
     text-align: center;
+  }
+  section.set-form {
+    background-image: url("/asset/yokoGeri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section.set-form div {
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+  section.set-form div p {
+    color: #fff;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0 0 0 37px;
+    font-size: 2rem;
+  }
+  section.set-form div p:nth-child(2) {
+    font-size: 1rem;
+  }
+  section.set-form div form input[type=text]#nom {
+    margin: 20px 0 20px 37px;
+    height: 5vw;
+    padding: 0 10px 0 10px;
+    width: 40%;
+  }
+  section.set-form div form input[type=text]#telephone {
+    margin: 20px 0 20px 62px;
+    height: 5vw;
+    padding: 0 10px 0 10px;
+    width: 40%;
+  }
+  section.set-form div form select {
+    width: 89%;
+    margin: 0 0 20px 37px;
+    height: 5vw;
+  }
+  section.set-form div form input[type=text]#inscreptionDate {
+    width: 89%;
+    margin: 0 0 20px 37px;
+    height: 5vw;
+    display: inline-block;
+  }
+  section.set-form div form textarea {
+    width: 89%;
+    margin: 0 0 20px 37px;
+    height: 15vw;
+  }
+  section.set-form div form input[type=button] {
+    margin: 0 0 20px 37px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  span {
+    text-align: center;
+  }
+  section.set-form {
+    background-image: url("/asset/yokoGeri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section.set-form div.bg-danger {
+    width: 40%;
+    position: relative;
+    left: 390px;
+  }
+  section.set-form div.bg-danger p {
+    width: 80%;
+    margin: 0 0 0 50px;
+    padding-top: 35px;
+  }
+  section.set-form div.bg-danger p:nth-child(2) {
+    padding: 0;
+  }
+  section.set-form div.bg-danger input[type=text]#nom {
+    height: 3vw;
+  }
+  section.set-form div.bg-danger input[type=text]#telephone {
+    height: 3vw;
+    margin-left: 51px;
+  }
+  section.set-form div.bg-danger select {
+    height: 3vw;
+  }
+  section.set-form div.bg-danger input[type=text]#inscreptionDate {
+    height: 3vw;
+    padding: 0 10px 0 10px;
+  }
+  section.set-form div.bg-danger textarea {
+    height: 6vw;
   }
 }
 
@@ -76,6 +202,15 @@ nav {
 }
 
 .width-ourClasses {
-  width: 31% !important;
+  width: auto !important;
 }
+
+section.bg-secondary div.container h3, section.bg-secondary div.container h6 {
+  text-align: center;
+}
+
+/*set four the background  in the laptop view*/
+/*    background-image: url('/asset/yokoGeri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 /*# sourceMappingURL=stylesheet.css.map */
