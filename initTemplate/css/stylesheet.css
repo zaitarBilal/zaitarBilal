@@ -71,6 +71,44 @@ ul li.reseauSocail {
     height: 10vw;
     padding: 5px 10px 5px 10px;
   }
+  section.newBlog_1 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_1 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  section.newBlog_1 div.post_1 {
+    width: 98%;
+    margin: 0 auto 5px auto;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_1 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 60%;
+  }
+  section.newBlog_2 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_2 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  section.newBlog_2 div.post_1 {
+    width: 98%;
+    margin: 0 auto 5px auto;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_2 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -128,6 +166,44 @@ ul li.reseauSocail {
     margin: 0 0 20px 37px;
     padding: 5px 10px 5px 10px;
   }
+  section.newBlog_1 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_1 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  section.newBlog_1 div.post_1 {
+    width: 50%;
+    margin: 0 auto 5px auto;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_1 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 60%;
+  }
+  section.newBlog_2 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_2 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  section.newBlog_2 div.post_1 {
+    width: 50%;
+    margin: 0 auto 5px auto;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_2 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 60%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -170,6 +246,60 @@ ul li.reseauSocail {
   section.set-form div.bg-danger textarea {
     height: 6vw;
   }
+  section.newBlog_1 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_1 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 2rem;
+  }
+  section.newBlog_1 div.post_1 {
+    width: 50%;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_1 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 2rem;
+  }
+  section.newBlog_1 div.post_1 img {
+    margin: 5px;
+    width: 60%;
+    height: 55vh;
+  }
+  section.newBlog_2 {
+    padding-bottom: 5px;
+  }
+  section.newBlog_2 p.text-center {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  section.newBlog_2 div.post_1 {
+    width: 50%;
+    background-color: #fff;
+    padding: 15px 10px 5px 10px;
+  }
+  section.newBlog_2 div.post_1 p:nth-child(1) {
+    color: #111;
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 2rem;
+  }
+  section.newBlog_2 div.post_1 img {
+    margin: 5px;
+    width: 60%;
+    height: 55vh;
+  }
+}
+
+section.sponsoring {
+  background-color: red;
+  height: 106px;
+  width: 100%;
 }
 
 .navbar {
